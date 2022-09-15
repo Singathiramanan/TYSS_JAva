@@ -12,7 +12,7 @@ public class SwapFirstAndLastString {
 		for(int i=0;i<str.length;i++){
 			list.add(str[i]);
 		}
-		Collections.swap(list, 0, list.size()-1);
+		Collections.swap(list, 0, (list.size()-1)); //swap(list, 0, list.size()-1);
 		for(String st:list){
 			System.out.print(st+" ");
 		}

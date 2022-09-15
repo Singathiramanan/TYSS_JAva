@@ -19,6 +19,7 @@ public class PrimeNumber {
 			if(j==n)
 			System.out.print(a[i]+" ");
 		}
+		
 	}
 
 }

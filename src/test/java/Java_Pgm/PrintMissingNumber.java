@@ -12,6 +12,7 @@ public class PrintMissingNumber {
 				count++;										//3
 				n--;											//1
 			}
+			
 		}
 		
 	}

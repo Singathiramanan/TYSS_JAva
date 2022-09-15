@@ -21,4 +21,5 @@ public class GetSumOfFirst3MaximumNumber {
 		System.out.println(sum);
 	}
 
+	
 }
