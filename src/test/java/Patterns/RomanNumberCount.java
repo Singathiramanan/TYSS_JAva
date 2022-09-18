@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class RomanNumberCount {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		int[] val = { 1, 5, 10, 50, 100, 500, 1000 };
 		char[] ch = { 'I', 'V', 'X', 'L', 'C', 'D', 'M' };
@@ -11,7 +12,6 @@ public class RomanNumberCount {
 		for (int i = 0; i < ch.length; i++) {
 			map.put(ch[i], val[i]);
 		}
-		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Roman Character");
 		String s = sc.next();
