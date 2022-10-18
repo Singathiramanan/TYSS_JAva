@@ -6,7 +6,6 @@ public class Recursionfact {
 		int output = factorial(5);
 		System.out.println(output);
 	}
-
 	static int factorial(int i) {
 		if(i>1){
 			return i*factorial(i-1); //5*4*3*2
