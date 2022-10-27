@@ -1,6 +1,6 @@
 package Assignment0207;
 
-public class SwitchTheWordsInString {
+public class rotateString {
 
 	public static void main(String[] args) {
 		String s="welcome to bangalore";

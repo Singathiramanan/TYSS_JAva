@@ -31,10 +31,12 @@ public class RemoveTheDuplicatesAndCountVowvels {
 		}
 		System.out.println(cha);
 		for(Character c:cha){
-			if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
+			if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'){
 				count++;
+			System.out.println(c+" "+count);
+			}
 		}
-		System.out.println(count);
+		
 
 	}
 

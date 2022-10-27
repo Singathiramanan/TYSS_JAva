@@ -4,7 +4,7 @@ public class CountAlphabets {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str="zxcvbnasdfgasdfgasdfzxcvasdf";
+		String str="zxcv bna sdfga sdfgasdf zxcvasdf";
 		char[] s = str.toCharArray();
 
 		for (int i = 97; i <=122 ; i++) {
