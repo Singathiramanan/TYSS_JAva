@@ -33,7 +33,7 @@ public class Star5x5pattern {
 
 		System.out.println();
 		for (int i = 1; i <= no; i++) {
-			for (int j = i; j <= no; j++) {
+			for (int j = i; j < no; j++) {
 				System.out.print("  ");
 			}
 			for (int j = 1; j <= i; j++) {
@@ -45,7 +45,7 @@ public class Star5x5pattern {
 
 		System.out.println();
 		for (int i = 1; i <= no; i++) {
-			for (int j = 1; j <= i; j++) {
+			for (int j = 1; j < i; j++) {
 				System.out.print("  ");
 			}
 			for (int j = i; j <= no; j++) {
@@ -77,7 +77,7 @@ public class Star5x5pattern {
 		System.out.println();
 
 		System.out.println();
-		for (int i = 1; i <= no; i++) {
+		for (int i = 1; i <= 3; i++) {
 			for (int j = i; j <= no; j++) {
 				System.out.print("  ");
 			}

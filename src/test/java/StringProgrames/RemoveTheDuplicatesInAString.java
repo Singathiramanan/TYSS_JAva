@@ -1,5 +1,8 @@
 package StringProgrames;
 
+import java.util.LinkedHashMap;
+import java.util.Map.Entry;
+
 public class RemoveTheDuplicatesInAString {
 
 	public static void main(String[] args) {
@@ -11,21 +14,8 @@ public class RemoveTheDuplicatesInAString {
 //			cha.add(ch[i]);			
 //		}
 //		System.out.println(cha);
-		String remove="";
-		String duplicate="";
-		int count=0;
-		for(int i=0;i<s.length();i++){
-				if(!remove.contains(Character.toString(s.charAt(i)))){
-					remove=remove+s.charAt(i);
-				}else{
-					duplicate=duplicate+s.charAt(i);
-					count++;
-				}
-		}
-		System.out.println(remove);
-		System.out.println(duplicate);
-		System.out.println(count);
-		/*int count=1;
+		
+		int count=1;
 		LinkedHashMap<Character, Integer> map=new LinkedHashMap<>();
 		for (int i = 0; i < s.length(); i++) {
 			if(map.containsKey(s.charAt(i))){
@@ -43,8 +33,22 @@ public class RemoveTheDuplicatesInAString {
 				System.out.println(e.getKey()+" "+e.getValue());
 			}
 			
-		}*/
-		 
+		}		
+		
+		/*String remove="";
+		String duplicate="";
+		int count=0;
+		for(int i=0;i<s.length();i++){
+				if(!remove.contains(Character.toString(s.charAt(i)))){
+					remove=remove+s.charAt(i);
+				}else{
+					duplicate=duplicate+s.charAt(i);
+					count++;
+				}
+		}
+		System.out.println(remove);
+		System.out.println(duplicate);
+		System.out.println(count);*/
 
 	}
 
