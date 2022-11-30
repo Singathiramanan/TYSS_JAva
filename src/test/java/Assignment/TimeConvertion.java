@@ -13,7 +13,7 @@ public class TimeConvertion {
 	    if(ampm.equals("AM") && ho==12){
 	        ho=0;
 	    }
-	    if(ampm.equals("PM") && ho<12){
+	    else if(ampm.equals("PM") && ho<12){
 	        ho+=12;
 	    }
 	    String time=String.format("%02d:%02d:%02d",ho,mi,se);
