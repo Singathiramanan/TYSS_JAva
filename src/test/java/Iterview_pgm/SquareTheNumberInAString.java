@@ -4,15 +4,15 @@ public class SquareTheNumberInAString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		String str="A3B2D4";
-//		int sum=0,square=0;
-//		for(int i=0;i<str.length();i++){
-//			if(str.charAt(i)>=48 && str.charAt(i)<=57){
-//				square=(str.charAt(i)-48)*(str.charAt(i)-48);
-//				sum+=square;									//9+4+16
-//			}
-//		}
-//		System.out.println(sum);
+		String str="A3B2D4";
+		int sumc=0,square=0;
+		for(int i=0;i<str.length();i++){
+			if(str.charAt(i)>=48 && str.charAt(i)<=57){
+				square=(str.charAt(i)-48)*(str.charAt(i)-48);
+				sumc+=square;									//9+4+16=29
+			}
+		}
+		System.out.println(sumc);
 		
 		int no=121,sum=0,copy=no;
 		while(no!=0){

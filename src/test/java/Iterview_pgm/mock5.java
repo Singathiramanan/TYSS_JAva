@@ -1,6 +1,6 @@
 package Iterview_pgm;
 
-public class sdfghjk {
+public class mock5 {
 
 	public static void main(String[] args) {
 		// int []a={4,7,9,8,76,43,23,56,37};
@@ -31,17 +31,18 @@ public class sdfghjk {
 				System.out.println(b[i] + " not pali");
 			}
 		}*/
-		int no=1473,copy=no,sum=0;
-		while(no!=0){
-			int rem=no%10;
-			sum=sum+(rem*rem*rem);
-			no=no/10;
-		}
-		if(sum==copy){
-			System.out.println("armstrong");
-		}else{
-			System.out.println("not armstrong");
-		}
+//		int no=1473,copy=no,sum=0;
+//		while(no!=0){
+//			int rem=no%10;
+//			sum=sum+(rem*rem*rem);
+//			no=no/10;
+//		}
+//		if(sum==copy){
+//			System.out.println("armstrong");
+//		}else{
+//			System.out.println("not armstrong");
+//		}
+		System.out.println();
 	}
 
 }
