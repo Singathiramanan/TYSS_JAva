@@ -3,7 +3,7 @@ package Iterview_pgm;
 public class mock3 {
 
 	public static void main(String[] args) {
-		String str="a2b3c2";
+		String str="a2b9c2";
 		int no=0;
 		int count=0;
 		for(int i=0;i<str.length();i++){			 
