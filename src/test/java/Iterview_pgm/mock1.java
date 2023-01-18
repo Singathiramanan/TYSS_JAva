@@ -11,7 +11,7 @@ public class mock1 {
 				rev+=s1.charAt(j);								
 				j--;
 			}else{
-				rev+=" ";			//str.charAt(i)							//rev=a,a ,a i,a id,a idn,a idni,a idni ,a idni e,a idni ev,a idni evo,a idni evol,a idni evolI
+				rev+=str.charAt(i);								//rev=a,a ,a i,a id,a idn,a idni,a idni ,a idni e,a idni ev,a idni evo,a idni evol,a idni evolI
 			}
 		   }
 			System.out.println(rev);

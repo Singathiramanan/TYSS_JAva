@@ -12,7 +12,7 @@ public class ReverseWithSameSpace {
 			rev=rev+s1.charAt(j);
 			j--;}
 			else{
-				rev+=" ";
+				rev+=str.charAt(i);
 			}
 		}
 		System.out.println(rev);
@@ -26,7 +26,7 @@ public class ReverseWithSameSpace {
 				rev1=rev1+wrev.charAt(j);
 				j++;}
 				else{
-					rev1+=" ";
+					rev1+=str.charAt(i);
 				}
 		}
 		System.out.println(rev1);
