@@ -16,17 +16,17 @@ public class CountOfStringRepeatedInAString {
 			}
 		}
 		System.out.println(count);
-		int[] a={12,45,22,56,78,86,54};
-		for(int i=0;i<a.length;i++){
-			for(int j=i+1;j<a.length;j++){
-				if(a[i]<a[j]){
-					int temp=a[i];
-					a[i]=a[j];
-					a[j]=temp;
-				}
-			}		
-		}	
-		System.out.println("Thired Max Element:"+a[2]);//56
+//		int[] a={12,45,22,56,78,86,54};
+//		for(int i=0;i<a.length;i++){
+//			for(int j=i+1;j<a.length;j++){
+//				if(a[i]<a[j]){
+//					int temp=a[i];
+//					a[i]=a[j];
+//					a[j]=temp;
+//				}
+//			}		
+//		}	
+//		System.out.println("Thired Max Element:"+a[2]);//56
 		
 		
 	}
