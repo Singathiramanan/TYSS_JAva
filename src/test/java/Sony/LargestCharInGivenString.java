@@ -3,7 +3,7 @@ package Sony;
 public class LargestCharInGivenString {
 
 	public static void main(String[] args) {
-		String str="aaBabXCcDaxA";
+		String str="aaBabXyYCcDaxA";
 		String lc="",uc="";
 		for(int i=0;i<str.length();i++){
 			if(str.charAt(i)>='a'&&str.charAt(i)<='z'){
