@@ -6,7 +6,7 @@ public class TwoDArrayDiagonalDiff {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the array size");
 		int size = sc.nextInt();

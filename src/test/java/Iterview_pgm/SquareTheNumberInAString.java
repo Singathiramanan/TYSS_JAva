@@ -3,7 +3,7 @@ package Iterview_pgm;
 public class SquareTheNumberInAString {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		String str="A3B2D4";
 		int sumc=0,square=0;
 		for(int i=0;i<str.length();i++){
