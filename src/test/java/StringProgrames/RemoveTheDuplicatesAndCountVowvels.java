@@ -25,7 +25,7 @@ public class RemoveTheDuplicatesAndCountVowvels {
 		String s="india";
 		String s1 = s.toLowerCase();
 		char[] ch= s1.toCharArray();
-		LinkedHashSet<Character> cha=new LinkedHashSet<>();
+		LinkedHashSet<Character> cha=new LinkedHashSet<Character>();
 		for(int i=0;i<ch.length;i++){
 			cha.add(ch[i]);			
 		}

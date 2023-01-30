@@ -6,7 +6,7 @@ public class occuranceLength {
 
 	public static void main(String[] args) {
 		int[] arr={0,1,1,0,1,3,0,4};
-		HashSet<Integer> set=new HashSet<>();
+		HashSet<Integer> set=new HashSet<Integer>();
 		for(int i=0;i<arr.length;i++){
 			set.add(arr[i]);
 		}

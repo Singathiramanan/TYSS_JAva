@@ -8,7 +8,7 @@ public class SwapFirstAndLastString {
 	public static void main(String[] args) {
 		String s="this is test yentra";
 		String[] str = s.split(" ");
-		ArrayList<String> list=new ArrayList<>();
+		ArrayList<String> list=new ArrayList<String>();
 		for(int i=0;i<str.length;i++){
 			list.add(str[i]);
 		}

@@ -5,12 +5,11 @@ import java.util.TreeSet;
 public class aabddc_a2b1d2c1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String s="aaacbbcdddeea";
 		char[] ch = s.toCharArray();
 		int count=0;
 		char c=ch[0];
-		TreeSet<Character> set=new TreeSet<>();
+		TreeSet<Character> set=new TreeSet<Character>();
 		for(int i=0;i<ch.length;i++){
 			set.add(ch[i]);
 			if(c==ch[i]){

@@ -22,7 +22,7 @@ public class NumberOfAccuranceInEachCharOfString {
 //		for(Entry<Character, Integer> e:map.entrySet()){
 //				System.out.println(e.getKey()+" "+e.getValue());			
 //		}
-		LinkedHashSet<Character> set=new LinkedHashSet<>();
+		LinkedHashSet<Character> set=new LinkedHashSet<Character>();
 		for(int i=0;i<s.length();i++){
 			set.add(s.charAt(i));
 		}

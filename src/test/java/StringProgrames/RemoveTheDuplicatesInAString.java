@@ -16,7 +16,7 @@ public class RemoveTheDuplicatesInAString {
 //		System.out.println(cha);
 		
 		int count=1;
-		LinkedHashMap<Character, Integer> map=new LinkedHashMap<>();
+		LinkedHashMap<Character, Integer> map=new LinkedHashMap<Character, Integer>();
 		for (int i = 0; i < s.length(); i++) {
 			if(map.containsKey(s.charAt(i))){
 				Integer value = map.get(s.charAt(i));

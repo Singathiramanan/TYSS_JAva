@@ -6,7 +6,7 @@ public class PrintRepeatingNoInAnArray {
 
 	public static void main(String[] args) {
 		int[] a={4,1,4,2,0,2};
-		HashSet<Integer> set=new HashSet<>();
+		HashSet<Integer> set=new HashSet<Integer>();
 		for(int i=0;i<a.length;i++){
 			set.add(a[i]);
 		}

@@ -79,7 +79,7 @@ public class xcvbnm {
 			
 		case 7:
 			String str="aabb";
-			HashSet<Character> set=new HashSet<>();
+			HashSet<Character> set=new HashSet<Character>();
 			for(int i=0;i<str.length();i++){
 				set.add(str.charAt(i));
 			}

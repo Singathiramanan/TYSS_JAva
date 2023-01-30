@@ -7,7 +7,7 @@ public class UniquesubString {
 
 	public static void main(String[] args) {
 		String s="aabcba";
-		HashMap<String, Integer> map=new HashMap<>();
+		HashMap<String, Integer> map=new HashMap<String, Integer>();
 		for(int i=0;i<s.length();i++){
 			for(int j=i+1;j<=s.length();j++){
 				String str = s.substring(i, j);

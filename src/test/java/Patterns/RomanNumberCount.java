@@ -8,7 +8,7 @@ public class RomanNumberCount {
 	public static void main(String[] args) {
 		int[] val = { 1, 5, 10, 50, 100, 500, 1000 };
 		char[] ch = { 'I', 'V', 'X', 'L', 'C', 'D', 'M' };
-		HashMap<Character, Integer> map = new HashMap<>();
+		HashMap<Character, Integer> map = new HashMap<Character, Integer>();
 		for (int i = 0; i < ch.length; i++) {
 			map.put(ch[i], val[i]);
 		}

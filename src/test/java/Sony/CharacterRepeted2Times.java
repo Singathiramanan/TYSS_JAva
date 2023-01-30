@@ -7,7 +7,7 @@ public class CharacterRepeted2Times {
 
 	public static void main(String[] args) {
 		String str="asdfghadfghasdfg";
-		HashMap<Character, Integer> map=new HashMap<>();
+		HashMap<Character, Integer> map=new HashMap<Character, Integer>();
 		for(int i=0;i<str.length();i++){
 			if(!map.containsKey(str.charAt(i))){
 				map.put(str.charAt(i), 1);
