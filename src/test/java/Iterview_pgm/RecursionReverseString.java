@@ -3,9 +3,7 @@ package Iterview_pgm;
 public class RecursionReverseString {
 
 	public static void main(String[] args) {
-		String s="venkataramanan";
-		System.out.println(s.substring(5));
-		System.out.println(s.substring(3, 8));
+		String s="venkata ramanan";
 		String rev=Reverse(s);
 		System.out.println(rev);
 	}
