@@ -3,7 +3,7 @@ package Assignment;
 public class TimeConvertion {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		String s="12:01:00AM";
 		String[] str=s.split(":");
 	    String ampm=str[2].substring(2, 4);

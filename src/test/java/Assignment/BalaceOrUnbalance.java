@@ -3,7 +3,7 @@ package Assignment;
 public class BalaceOrUnbalance {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		String sp="{[]}";
 		char[] ch = sp.toCharArray();
 		int s1=(int)'{',s2='}',s3='[',s4=']',s5='(',s6=')';

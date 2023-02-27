@@ -5,7 +5,7 @@ import java.util.TreeSet;
 public class aabddc_a2b1d2c1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		String s="aaacbbcdddeea";
 		char[] ch = s.toCharArray();
 		int count=0;

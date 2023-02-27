@@ -3,7 +3,7 @@ package StringProgrames;
 public class CountAlphabets {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		String str = "zxcv bna sdfga sdfgasdf zxcvasdf";
 		char[] s = str.toCharArray();
 

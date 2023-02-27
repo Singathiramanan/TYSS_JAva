@@ -3,7 +3,7 @@ package Assignment;
 public class dfghj {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		String s="venkataramanan";
 //		LinkedHashMap<Character,Integer> map=new LinkedHashMap<Character,Integer>();
 //	    for(int i=0;i<s.length();i++){

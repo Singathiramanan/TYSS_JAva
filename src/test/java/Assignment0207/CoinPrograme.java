@@ -3,7 +3,7 @@ package Assignment0207;
 public class CoinPrograme {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int coins[] = { 1, 2, 5 };
 		CoinChange coinchange = new CoinChange(coins, 5);
 		System.out.println("Total solutions: " + coinchange.solve(0, 0)); // 1+1+1+1+1,1+1+1+2,1+2+2,5

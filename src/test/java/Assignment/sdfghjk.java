@@ -3,7 +3,7 @@ package Assignment;
 public class sdfghjk {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		String s1="malayalam",s2="al";
 		int count=0;
 		for(int i=0;i<s1.length()-s2.length();i++){

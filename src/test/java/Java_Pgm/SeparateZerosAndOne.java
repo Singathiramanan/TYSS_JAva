@@ -3,7 +3,7 @@ package Java_Pgm;
 public class SeparateZerosAndOne {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		char[] s={'0','0','1','1','0','1','1','0'};
 		char[] b=new char[s.length];
 		int count=0;

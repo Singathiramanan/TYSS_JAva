@@ -4,7 +4,7 @@ public class BalacedArray {
 
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int[] arr={5,6,8,11};
 		int lcount=0,rcount=0;
 	    if(arr.length>2){
